@@ -536,6 +536,7 @@
     #contact {
         background-color: var(--contrast-background);
         padding: 2em;
+        max-width: 100vw;
     }
 
     #contact .content {
