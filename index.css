@@ -424,6 +424,7 @@
         flex-wrap: wrap;
         max-width: 90vw;
         max-height: 90vh;
+        padding: 1em;
     }
 
     .footer {
