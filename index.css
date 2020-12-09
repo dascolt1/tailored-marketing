@@ -130,6 +130,7 @@
         width: 100%;
         min-width: 100%; 
         min-height: 90%;
+        max-width: 100vw;
     }
 
     .marketing-landing-hero {
@@ -382,6 +383,38 @@
 
     #black .author {
         color: gray;
+    }
+
+    #stats {
+        font-family: var(--font);
+        padding-top: 4em;
+        padding-bottom: 3em;
+    }
+    
+
+    #stats .stat-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 90vw;
+        max-height: 90vh;
+        padding: 2em;
+    }
+
+    #stats .stat-img {
+        width: 90vw;
+        height: 90vh;
+    }
+
+     #stats .stat-card .wrapped-flex {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 90vw;
+        max-height: 90vh;
     }
 
     .footer {
@@ -700,6 +733,49 @@
         font-size: 1em;
         color: gray;
          padding-bottom: 2em;
+    }
+
+    #stats {
+        font-family: var(--font);
+        padding-top: 4em;
+        padding-bottom: 3em;
+    }
+    
+
+    #stats .stat-card {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 4em;
+    }
+
+    #stats .stat-img {
+        width: 40%;
+        height: 40%;
+        max-width: 50%;
+        margin-left: 1em;
+    }
+
+     #stats .stat-card .wrapped-flex {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 40%;
+        height: 100%;
+    }
+
+    #stats .stat-card .wrapped-flex h2{
+        padding-bottom: 1em;
+    }
+
+    #stats .stat-card .wrapped-flex ul li{
+        padding-bottom: 1.5em;
+    }
+
+    .stat-gray {
+        background-color: #f1f1f1;
     }
 
 }
