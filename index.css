@@ -393,11 +393,11 @@
 
     #stats .wrapped-flex h2{
         text-align: center;
-        padding-bottom: 1.5em;
+        margin-bottom: 1.5em;
     }
 
     #stats .stat-img{
-        padding-bottom: 2em;
+        margin-bottom: 2em;
     }
 
     .stat-gray {
